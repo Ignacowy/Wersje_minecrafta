@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wersje Minecrafta</title>
+    <style>
+        /* Ogólne style dla całej strony, w tym czcionki, tło i kolor tekstu */
+        body {
+            font-family: Arial, sans-serif; /* Używa czcionki Arial jako głównej */
+            margin: 0; /* Usunięcie domyślnego marginesu */
+            padding: 0; /* Usunięcie domyślnego paddingu */
+            line-height: 1.6; /* Wysokość linii dla lepszej czytelności */
+            background-color: #E0F7FA; /* Jasny błękit jako tło */
+            color: #0D47A1; /* Ciemnoniebieski tekst */
+        }
+
+        /* Nagłówek */
+        header {
+            background: linear-gradient(to right, #2196F3, #64B5F6); /* Gradient od niebieskiego do jasnego błękitu */
+            color: #FFFFFF; /* Biały tekst w nagłówku */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none; /* Usunięcie punktów listy */
+            padding: 0; /* Usunięcie domyślnego paddingu */
+        }
+
+        nav ul li {
+            display: inline; /* Ustawienie elementów listy w jednym wierszu */
+            margin: 0 15px; /* Odstępy między elementami listy */
+        }
+
+        nav ul li a {
+            color: #FFFFFF; /* Biały tekst linków */
+            text-decoration: none; /* Usunięcie podkreślenia */
+            font-weight: bold; /* Pogrubienie tekstu */
+            transition: background-color 0.3s; /* Płynne przejście koloru tła */
+        }
+
+        nav ul li a:hover {
+            background-color: #81D4FA; /* Błękitny na hover */
+            color: #0D47A1; /* Ciemnoniebieski tekst na hover */
+        }
+
+        /* Sekcje */
+        section {
+            background-color: #B3E5FC; /* Jasny błękit dla sekcji */
+            padding: 20px;
+            margin: 20px 0;
+            border: 2px solid #0288D1; /* Ciemniejszy niebieski jako ramka */
+        }
+
+        section img {
+            width: 100%; /* Obrazek zajmuje całą szerokość sekcji */
+            height: auto; /* Wysokość dostosowuje się proporcjonalnie */
+            border: 2px solid #0D47A1; /* Ciemnoniebieska ramka */
+            border-radius: 8px; /* Zaokrąglone rogi */
+            margin: 20px 0; /* Odstęp nad i pod obrazkiem */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Cień dla lepszego efektu wizualnego */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #0D47A1; /* Ciemnoniebieski w stopce */
+            color: #FFFFFF; /* Biały tekst w stopce */
+        }
+
+        /* Płynne przewijanie */
+        html {
+            scroll-behavior: smooth; /* Płynne przewijanie do sekcji */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nagłówek -->
+    <header>
+        <h1>Historia Wersji Minecrafta</h1>
+        <nav>
+            <ul>
+                <li><a href="#wersje">Wersje</a></li>
+                <li><a href="#aktualnosci">Aktualności</a></li>
+                <li><a href="#o-grze">O grze</a></li>
+                <li><a href="#Podsumowanie">Podsumowanie</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sekcje -->
+    <section id="wersje">
+        <h2>Wersje Minecrafta</h2>
+		<img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b4/Cave_game_tech_test.png/revision/latest?cb=20191215124543" width="25" height="15" alt="Opis obrazka">
+        <p>Minecraft przeszedł przez wiele wersji od swojego powstania. Oto kilka kluczowych wersji:</p>
+        <ul>
+            <li><strong>Alpha (2010)</strong>: Pierwsza wersja publiczna gry.</li>
+            <li><strong>Beta (2010)</strong>: Wprowadzenie wielu nowych funkcji i poprawki błędów.</li>
+            <li><strong>1.0 (2011)</strong>: Oficjalne wydanie gry, pełna wersja.</li>
+            <li><strong>1.16 (2020)</strong>: Najlepsza aktualizacja zmieniono w niej nether</li>
+        </ul>
+    </section>
+
+    <section id="aktualnosci">
+        <h2>Aktualności</h2>
+        <img src="data:image/jpeg;base64,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" alt="Aktualności Minecraft" /> <!-- Miejsce na zdjęcie -->
+        <p>Śledź najnowsze aktualizacje i zmiany w Minecraftcie:</p>
+        <ul>
+            <li>Wrzesień 2024: Minecon zapowiedziano nowe biome i moby!</li>
+            <li>Dodano Pale garden & creaking (polskie tłumaczenie blade ogrody i skrzypiący)</li>
+            <li>Październik 2024: Dodano żywicę oraz nowe materiały z niej i nowe kwiaty</li>
+        </ul>
+    </section>
+
+    <section id="o-grze">
+        <h2>O grze</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehD6fXNtoVNg5m0n0DbmFJvk84P-mK6kj_66-6OFWjdosn4ueSyiayksBRBFdXAIQInk&usqp=CAU" alt="O grze Minecraft" /> <!-- Miejsce na zdjęcie -->
+        <p>Minecraft to gra stworzona przez Markusa Perssona, znanego jako Notch. Gra została wydana po raz pierwszy w 2009 roku i szybko stała się jednym z najpopularniejszych tytułów w historii gier komputerowych.</p>
+    </section>
+
+    <section id="Podsumowanie">
+        <h2>Podsumowanie</h2>
+        <p>To były najważniejsze rzeczy o minecraft!</p>
+    </section>
+
+    <!-- Stopka -->
+    <footer>
+        <p> Autor: Ignacy Kordecki.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
